@@ -1,5 +1,6 @@
 <?php
-// config.php - DB connection using PDO
+session_start();
+
 $host = 'localhost';
 $db   = 'cafe_manager';
 $user = 'root';
@@ -16,3 +17,4 @@ try {
   echo 'Kết nối thất bại: ' . $e->getMessage();
   exit;
 }
+?>
