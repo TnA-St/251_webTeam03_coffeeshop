@@ -307,7 +307,6 @@ if (isset($_POST['checkout']) && !empty($_SESSION['cart'])) {
             <form method="POST">
                 <div class="modal-body">
                     <div class="mb-3"><label>Tên khách</label><input type="text" name="new_cust_name" class="form-control" required></div>
-                    <div class="mb-3"><label>SĐT</label><input type="text" name="new_cust_phone" class="form-control"></div>
                     <input type="hidden" name="quick_add_customer" value="1">
                 </div>
                 <div class="modal-footer"><button type="submit" class="btn btn-primary w-100">Lưu</button></div>
